@@ -1,3 +1,0 @@
-function usrm(){
-    Document.getelementb
-}

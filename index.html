@@ -6,33 +6,35 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS EVENT </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="POST" target="_blank">
+<form id="form" action="POST" target="_parent" onsubmit="  check()">
     <fieldset>
         <legend>JS EVENT
 
         </legend>
         <label for="username">UserName</label>
-        <input type="text" name="usr" id="username">
-        <span id=usrMessage style="display: none">write full name</span>
+        <input type="text" name="usr" id="username" onclick="usrMessage()">
+        <span id=uMessage >write full name</span>
         <br>
         <label for="password">Password</label>
-        <input type="text" name="pwd" id="password">
-        <span id=pwdMessage style="display: none">Write a good password </span>
+        <input type="text" name="pwd" id="password" onclick="pwdMessage()">
+        <span id=pMessage style="display: none"> </span>
 
         <p>things you liked:</p>
         <label for="design">Design:</label>
-        <input type="checkbox" name="design" id="design" value="Design" >
+        <input type="checkbox" name="design" id="design" value="Design">
         <br>
         <label for="Ease">Ease of Use:</label>
-        <input type="checkbox" name="Ease" id="Ease" value="true" >
+        <input type="checkbox" name="Ease" id="Ease" value="true">
         <br>
         <label for="price">Pricing:</label>
-        <input type="checkbox" name="price" id="price" value="price" >
+        <input type="checkbox" name="price" id="price" value="price">
         <br>
-        <input type="submit">
-        <input type="reset">
+        <input type="submit" value="Submit">
+        <input type="reset" value="clear">
+        <script src="main.js"></script>
 
     </fieldset>
 </form>
