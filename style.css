@@ -1,9 +1,11 @@
-#uMessage{
+#uMessage {
     display: none;
 }
-#pMessage{
+
+#pMessage {
     display: none;
 }
+
 * {
     text-align: center;
 }
