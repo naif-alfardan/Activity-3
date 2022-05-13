@@ -4,3 +4,6 @@
 #pMessage{
     display: none;
 }
+* {
+    text-align: center;
+}
