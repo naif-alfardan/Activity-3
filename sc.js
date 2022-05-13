@@ -1,0 +1,3 @@
+function usrm(){
+    Document.getelementb
+}
